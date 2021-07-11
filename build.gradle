@@ -30,8 +30,10 @@ test {
 bootJar {
     baseName = 'com.example'
     version =  '0.0.1'
+//    mainClass = 'com.example.demo.job2.Job2Application'
     manifest {
 //        attributes 'Start-Class': 'org.springframework.batch.core.launch.support.CommandLineJobRunner'
-        attributes 'Start-Class': 'com.example.demo.job2.Job2Application'
+//        attributes 'Start-Class': 'com.example.demo.job2.Job2Application'
+		attributes 'Main-Class': 'com.example.demo.job2.Job2Application'
     }
 }

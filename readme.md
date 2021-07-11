@@ -51,7 +51,7 @@ java -Dspring.batch.job.names=importUserJob -jar gs-batch-processing-0.1.0.jar
 java SampleApp.jar --spring.batch.job.names=sample --spring.batch.job.enabled=true
 
 ## CommandLineJobRunnerでの実現について
-
+https://qiita.com/kakasak/items/81a2a91ac22a8a05ee2a
 
 MainClass,StartClass<BR>
 https://spring.pleiades.io/spring-boot/docs/current/gradle-plugin/reference/htmlsingle/
